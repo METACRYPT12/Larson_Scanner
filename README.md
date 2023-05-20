@@ -16,4 +16,4 @@ An Arduino UNO is used to interface the 74HC595 shift register which sequentiall
 A user-defined function shiftWrite is used to write to the internal register of shift register sequentially from QA to QH on the rising-edge of clock and then latch it to the output on the falling edge of the clock.
 
 ## TinkerCad 
-https://www.tinkercad.com/things/1QUEh64eXEC-larsonscanner
+[Link to TinkerCad Sketch](https://www.tinkercad.com/things/1QUEh64eXEC?sharecode=O-J4VrxvqSJAL8Vil9IsFzNm2QI4GNEJhAQSKJvQUVg)
