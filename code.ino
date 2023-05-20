@@ -35,7 +35,7 @@ void loop()
 void shiftWrite(int Pin, boolean State)
 {
   // Data representation 0b00000000
-  //					   76543210 
+  //                       76543210 
   bitWrite(data, Pin, State);
   // Write data to shift register
   shiftOut(datapin, clkpin, MSBFIRST, data);
